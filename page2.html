@@ -1,0 +1,384 @@
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+
+
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name=viewport content="width=device-width, initial-scale=1">
+
+
+
+  <title>The HTML5 Herald</title>
+  <meta name="description" content="The HTML5 Herald">
+  <meta name="author" content="SitePoint">
+
+  <link rel="stylesheet" href="css/styles.css">
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+  </script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
+  </script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+  </script>
+
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand"><img src="images/les-films-en-plein-air.jpg " alt="logo"></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+
+
+        <li class="nav-item active">
+          <a class="nav-link" href="index.html">Accueil <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="index.html">Actualités</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+            aria-haspopup="true" aria-expanded="false">
+            films
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="index.html">Inception</a>
+            <a class="dropdown-item" href="index.html">La rue case negre</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="index.html">Le roi lion</a>
+          </div>
+        </li>
+        <li class="nav-item">
+
+        </li>
+      </ul>
+      <form class="form-inline my-2 my-lg-0">
+        <input class="form-control mr-sm-2" type="search" placeholder="Rechercher" aria-label="Search">
+        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Rechercher</button>
+      </form>
+    </div>
+  </nav>
+  <header>
+    <div class="titre">
+      <h1>Films à l'affiche</h1>
+    </div>
+    <div class="text-center">
+      <img src="images/header.jpg" class="img-fluid" alt="Responsive image" style="width: 60rem; height: 50rem;">
+    </div>
+  </header>
+
+  <div class="filmsaffiche">
+    <p class="btn btn-danger btn-lg btn-block " >Voici la liste
+      de nos films projetés lors de notre festival et leur date de projection :</p>
+
+  </div>
+
+  <div class="container  description;">
+    <div class="card" >
+      <img src="images/ruecasenegre.jpg" class="card-img-top" alt="rue">
+      <div class="card-body ;" style="background-color: #6d071a;">
+        <h5 class="card-title">Rue case négre</h5>
+        <p class="card-text height: 10Opx;">Le narrateur est José, un enfant mulatre vivant dans les champs de canne à
+          sucres. Il vit à Petit-Morne (un bourg de Rivière-Salée) et, plus précisément, dans la rue Cases-Nègres. José
+          est élevé par sa grand-mère, qu'il surnomme M'man Tine. Sa mère est partie travailler en ville à
+          Fort-de-France. José, avec tous les petits enfants du bourg, quand ils ne travaillent pas encore aux champs,
+          passe ses journées à trainer dans la rue à s'amuser. M'man Tine travaille elle aussi dans les champs.
+
+          Après avoir fait une grosse bêtise, les parents décident d'emmener leurs enfants travailler aux champs avec
+          eux. M'man Tine refuse de faire trimer son petit-fils dans les plantations et nourrit l'espoir qu'il sorte de
+          cette vie en allant à l'école. Elle l'inscrit donc à l'école située dans le bourg voisin, nommé Petit-Bourg.
+          L'école joue un rôle prépondérant dans cette société encore largement coloniale. José devient bon élève à
+          l’école si bien que son professeur l’encourage à entrer au lycée à Fort-de-France. Il réussit le concours et
+          doit envisager la vie en ville. Sa mère le recueille et doit changer de travail pour vivre avec lui. Il
+          s’éloigne alors un peu à contrecœur de M’man Tine..</p>
+
+        <!-- Button trigger modal -->
+        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalCenter">
+          Je reserve
+        </button>
+
+        <!-- Modal -->
+        <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog"
+          aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+          <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLongTitle">Réservation gratuite</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="modal-body">
+                <form>
+                  <div class="form-row">
+                    <div class="col-md-4 mb-3">
+                      <label for="validationDefault01">nom</label>
+                      <input type="text" class="form-control" id="validationDefault01" placeholder="noms" value="Mark"
+                        required>
+                    </div>
+                    <div class="col-md-4 mb-3">
+                      <label for="validationDefault02">Prénom</label>
+                      <input type="text" class="form-control" id="validationDefault02" placeholder="prénom" value="Otto"
+                        required>
+                    </div>
+                    <div class="col-md-4 mb-3">
+                      <label for="validationDefaultUsername">mail</label>
+                      <div class="input-group">
+                        <div class="input-group-prepend">
+                          <span class="input-group-text" id="inputGroupPrepend2">@</span>
+                        </div>
+                        <input type="text" class="form-control" id="validationDefaultUsername" placeholder="Username"
+                          aria-describedby="inputGroupPrepend2" required>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="form-row">
+                    <div class="col-md-6 mb-3">
+                      <label for="validationDefault03">ville</label>
+                      <input type="text" class="form-control" id="validationDefault03" placeholder="ville" required>
+                    </div>
+                    <div class="col-md-3 mb-3">
+                      <label for="validationDefault04">département</label>
+                      <input type="text" class="form-control" id="validationDefault04" placeholder="département"
+                        required>
+                    </div>
+                    <div class="col-md-3 mb-3">
+                      <label for="validationDefault05">code postal</label>
+                      <input type="text" class="form-control" id="validationDefault05" placeholder="code postal"
+                        required>
+                    </div>
+                  </div>
+                  <div class="form-group">
+                    <div class="form-check">
+                      <input class="form-check-input" type="checkbox" value="" id="invalidCheck2" required>
+                      <label class="form-check-label" for="invalidCheck2">
+                        J'accepte les termes et conditions
+                      </label>
+                    </div>
+                  </div>
+
+                  <button class="btn btn-primary" type="submit">Soumettre</button>
+                </form>
+
+                <form>
+                  <div class="form-row align-items-center">
+                    <div class="col-auto my-1">
+                      <label class="mr-sm-2 sr-only" for="inlineFormCustomSelect">je valide</label>
+                      <select class="custom-select mr-sm-2" id="inlineFormCustomSelect">
+                        <option selected>Date et heure disponibles</option>
+                        <option value="1">le 05/08/2019 à 13H</option>
+                        <option value="2">le 06/08/2019 à 20H</option>
+                        <option value="3">le 07/08/2019 à 22H</option>
+                      </select>
+                    </div>
+                    <div class="col-auto my-1">
+                      <div class="custom-control custom-checkbox mr-sm-2">
+                        <input type="checkbox" class="custom-control-input" id="customControlAutosizing">
+                        <label class="custom-control-label" for="customControlAutosizing">je valide</label>
+                      </div>
+                    </div>
+                    <div class="col-auto my-1">
+                      <button type="submit" class="btn btn-primary">Soumettre</button>
+                    </div>
+                  </div>
+                </form>
+
+                ...
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">fermer</button>
+                <button type="button" class="btn btn-primary">Sauvegarder</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="card" style="margin-top: 80px;" >
+      <img src="images/roilion.jpg" class="card-img-top" alt="roilion">
+      <div class="card-body">
+        <h5 class="card-title">Roi lion</h5>
+        <p class="card-text">Le jour se lève sur la savane africaine. Les animaux de toutes sorte engagent un périple
+          vers un piton rocheux. C'est le jour de la présentation aux animaux de Simba, fils du roi lion Mufasa et de la
+          reine lionne Sarabi. Mufasa rend ensuite visite à son frère Scar, qui n'est pas venu à la cérémonie. Ce
+          dernier est jaloux de son frère et convoite son trône. Avec les hyènes, il va échafauder un plan pour le
+          débarrasser de son frère et de Simba, pour s'en emparer.
+
+        </p>
+        <!-- Button trigger modal -->
+        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalCenter">
+          je reserve
+        </button>
+
+        <!-- Modal -->
+        <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog"
+          aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+          <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLongTitle">Modal title</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="modal-body">
+                <form>
+                  <div class="form-row align-items-center">
+                    <div class="col-auto my-1">
+                      <label class="mr-sm-2 sr-only" for="inlineFormCustomSelect">Preference</label>
+                      <select class="custom-select mr-sm-2" id="inlineFormCustomSelect">
+                        <option selected>Dates et heures disponibles </option>
+                        <option value="1">le 06/08/2019 à 15H</option>
+                        <option value="2">le 07/08/2019 à 18H</option>
+                        <option value="3">le 08/08/2019 à 20h</option>
+                      </select>
+                    </div>
+                    <div class="col-auto my-1">
+                      <div class="custom-control custom-checkbox mr-sm-2">
+                        <input type="checkbox" class="custom-control-input" id="customControlAutosizing">
+                        <label class="custom-control-label" for="customControlAutosizing">Remember my preference</label>
+                      </div>
+                    </div>
+                    <div class="col-auto my-1">
+                      <button type="submit" class="btn btn-primary">Soumettre</button>
+                    </div>
+                  </div>
+                </form>
+
+                ...
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-primary">Sauvegarder</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="card"  style="margin-top: 80px;">
+      <img src="images/inception.jpg" class="card-img-top" alt="inception">
+      <div class="card-body">
+        <h5 class="card-title">Inception</h5>
+        <p class="card-text">Dans un futur proche, les États-Unis ont développé ce qui est appelé le « rêve partagé »,
+          une méthode permettant d'influencer l'inconscient d'une victime pendant qu'elle rêve, donc à partir de son
+          subconscient. Des « extracteurs » s'immiscent alors dans ce rêve, qu'ils ont préalablement modelé et qu'ils
+          peuvent contrôler, afin d'y voler des informations sensibles stockées dans le subconscient de la cible. C'est
+          dans cette nouvelle technique que se sont lancés Dominic Cobb et sa femme, Mal. Ensemble, ils ont exploré les
+          possibilités de cette technique et l'ont améliorée, leur permettant d'emboîter les rêves les uns dans les
+          autres, accentuant la confusion et donc diminuant la méfiance de la victime. Mais l'implication du couple dans
+          ce projet a été telle que Mal a un jour perdu le sens de la réalité ; pensant être en train de rêver, elle
+          s'est suicidée, croyant ainsi revenir à sa vision de la réalité. Soupçonné de son meurtre, Cobb est contraint
+          de fuir les États-Unis et d'abandonner leurs enfants à ses beaux-parents. Il se spécialise dans l'« extraction
+          », en particulier dans le domaine de l'espionnage industriel ; mercenaire et voleur, il est embauché par des
+          multinationales pour obtenir des informations de leurs concurrents commerciaux.</p>
+        <!-- Button trigger modal -->
+        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalCenter">
+          Je reserve
+        </button>
+
+        <!-- Modal -->
+        <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog"
+          aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+          <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLongTitle">Modal title</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="modal-body">
+                <form>
+                  <div class="form-row align-items-center">
+                    <div class="col-auto my-1">
+                      <label class="mr-sm-2 sr-only" for="inlineFormCustomSelect">Preference</label>
+                      <select class="custom-select mr-sm-2" id="inlineFormCustomSelect">
+                        <option selected>Dates et heures disponibles</option>
+                        <option value="1">16H le 05/08/2019</option>
+                        <option value="2"> 19H le 05/08/2019</option>
+                        <option value="3">14h le 07/08/2019</option>
+                      </select>
+                    </div>
+                    <div class="col-auto my-1">
+                      <div class="custom-control custom-checkbox mr-sm-2">
+                        <input type="checkbox" class="custom-control-input" id="customControlAutosizing">
+                        <label class="custom-control-label" for="customControlAutosizing">Remember my preference</label>
+                      </div>
+                    </div>
+                    <div class="col-auto my-1">
+                      <button type="submit" class="btn btn-primary">Soumettre</button>
+                    </div>
+                  </div>
+                </form>
+                ...
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">fermer</button>
+                <button type="button" class="btn btn-primary">Sauvegarder</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <footer class="footer p-2 d-flex justify-content-center">
+      <div class="col-11">
+        <div class="card">
+          <div class="card-header text-center">
+            <h1>les films en plein air</h1>
+          </div>
+
+          <div class="row">
+            <div class="col-lg-4 col-md-4 col-xs-12">
+              <h5> SIÈGE :
+                42, Boulevard Malesherbes
+                75850 Paris
+                FRANCE</h5>
+            </div>
+            <div class="col-lg-4 col-md-4 col-xs-12">
+              <h5>Horaires et dates:
+                <br>du 19/06/20 au 17/09/20</br>
+                du Lun au dim:16h-23h</h5>
+
+
+            </div>
+            <div class="col-lg-4 col-md-4 col-xs-12">
+              <h5>CONTACTEZ-NOUS :
+
+                <br>Tel : 01.56.23.57.42</br>
+                E-mail : lesfilmsdepleinair@lfdpa.fr</h5>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+
+</html>

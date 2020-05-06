@@ -1,0 +1,182 @@
+.navbar-toggler-icon {
+  color: black;
+}
+
+
+
+.nav-link {
+  color: white;
+}
+
+
+
+
+
+.navbar-brand img {
+  width: 170px;
+}
+
+.titre {
+  text-align: center;
+  padding: 20px;
+}
+
+.filmsaffiche {
+  
+  margin-top: 80px;
+  width: 45%;
+  margin-left: 10%;
+}
+
+
+
+.card-body {
+  background-color:white;
+  padding: 15px;
+
+}
+
+.card-title {
+  text-align: center;
+}
+
+.test {
+  background-image: url("../images/hero.jpg");
+  width: 100%;
+  height: 100%;
+  margin-top: 20px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.jumbotron {
+  background-color:#6d071a;
+  margin-top: 20px;
+  width: 100%;
+}
+
+
+
+
+
+.partenaires {
+  position: relative;
+  margin-top: 250px;
+  height: 300px;
+}
+
+.films {
+  margin-top: 150px;
+  height: 250px;
+  width: 100%;
+  color: #fff;
+}
+
+
+
+.carousel-item img {
+  width: 100%;
+  height: 400px;
+}
+
+.carousel-control-prev-icon {
+  background-color: black;
+}
+
+.carousel-control-next-icon {
+  background-color: black;
+}
+
+.footer {
+  background-color:#6d071a;
+  width: 100%;
+  margin-top: 280px;
+  height: 350px;
+  color: #fff
+}
+
+.card img{
+  height: 450px;
+}
+
+.filmsaffiche {
+ display: flex;
+
+width: 80%;
+
+}
+
+
+
+
+.columnRow {
+  background-color:#6d071a;
+  margin-top: 50px;
+}
+
+.card {
+  background-color:#6d071a;
+}
+
+
+
+.form {
+  margin-top: 200px;
+  position: absolute;
+  right: 10px;
+  
+  
+
+}
+
+
+.content-holder {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+.card-body {
+  background-color:#6d071a;
+}
+.card-text{
+  color:white;
+}
+
+.card-title{
+  color:white;
+}
+
+
+
+/* On Mobiles (screen width <= 767px) */
+@media screen and (max-width: 767px) {
+  .content-holder {
+    flex-direction: row;
+  }
+
+  .text-div {
+    margin-left: 10px;
+  }
+  .card-text {
+
+    color:white;
+  }
+
+  .footer {
+    margin-left: 15px;
+    width: 280px;
+    height:600px;
+    display: flex;
+    justify-content:center;
+  }
+  .test {
+    background-image: url("../images/hero.jpg");
+    height: 600px;
+  }
+
+ 
+}

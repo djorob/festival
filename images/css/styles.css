@@ -1,0 +1,166 @@
+.navbar-toggler-icon {
+  color: black;
+}
+
+
+
+.nav-link {
+  color: white;
+}
+
+
+
+
+
+.navbar-brand img {
+  width: 250px;
+}
+
+.titre {
+  text-align: center;
+  padding: 20px;
+}
+
+.filmsaffiche {
+  
+  margin-top: 80px;
+  width: 45%;
+  margin-left: 10%;
+}
+
+
+
+.card-body {
+  background-color: black;
+  padding: 15px;
+
+}
+
+.card-title {
+  text-align: center;
+}
+
+.test {
+  background-image: url("../images/hero.jpg");
+  width: 100%;
+  height: 100%;
+  margin-top: 20px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.jumbotron {
+  background-color: red;
+  margin-top: 20px;
+}
+
+
+
+
+
+.partenaires {
+  position: relative;
+  margin-top: 250px;
+  height: 300px;
+}
+
+.films {
+  margin-top: 150px;
+  height: 250px;
+  width: 100%;
+  color: #fff;
+}
+
+
+
+.carousel-item img {
+  width: 100%;
+  height: 400px;
+}
+
+.carousel-control-prev-icon {
+  background-color: black;
+}
+
+.carousel-control-next-icon {
+  background-color: black;
+}
+
+.footer {
+  background-color: red;
+  width: 100%;
+  margin-top: 280px;
+  height: 350px;
+  color: #fff
+}
+
+.card img{
+  height: 450px;
+}
+
+.filmsaffiche {
+ display: flex;
+
+width: 80%;
+
+}
+
+
+
+
+.columnRow {
+  background-color: red;
+  margin-top: 50px;
+}
+
+.card {
+  background-color: red;
+}
+
+
+
+.form {
+  margin-top: 200px;
+  position: absolute;
+  left: 70px;
+
+}
+
+
+.content-holder {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+.card-body {
+  background-color: black;
+}
+.card-text{
+  color:white;
+}
+
+.card-title{
+  color:white;
+}
+
+
+
+/* On Mobiles (screen width <= 767px) */
+@media screen and (max-width: 767px) {
+  .content-holder {
+    flex-direction: row;
+  }
+
+  .text-div {
+    margin-left: 10px;
+  }
+  .card-text {
+
+    color:red;
+  }
+ 
+}
